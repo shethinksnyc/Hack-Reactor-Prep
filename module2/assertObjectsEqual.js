@@ -1,5 +1,5 @@
 /*
-Write a function called assertObjectsEqual. It will be a function that takes three parameters: actual will be an object with scalar values, and should ideally be the result of calling a function that you are testing. (presumably the function being tested should return an object with scalar values); expected, also an object with scalar values, should be the theoretical result of calling your function (or, what you "expect" the function to return). Finally, testName will be a string, and should describe what a call to assertObjectsEqual is verifying about the function being tested.
+Write a function called assertObjectsEqual. It will be a function that take three parameters: actual will be an object with scalar values, and should ideally be the result of calling a function that you are testing. (presumably the function being tested should return an object with scalar values); expected, also an object with scalar values, should be the theoretical result of calling your function (or, what you "expect" the function to return). Finally, testName will be a string, and should describe what a call to assertObjectsEqual is verifying about the function being tested.
 
 Please use JSON.stringify() on both objects, then compare them.
 
