@@ -58,3 +58,5 @@ var currentInventory = [
     ],
   },
 ];
+
+calculateAveragePricePerDesigner(currentInventory);
