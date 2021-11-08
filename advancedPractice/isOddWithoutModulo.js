@@ -1,9 +1,9 @@
 /*
-Write a function called "isEvenWithoutModulo".
+Write a function called "isOddWithoutModulo".
 
-Given a number, "isEvenWithoutModulo" returns whether it is even.
+Given a number, "isOddWithoutModulo" returns whether the passed in number is odd.
 
-Notes:
+Note:
 
 It does so without using the modulo operator (%).
 It should work for negative numbers and zero.
@@ -11,8 +11,21 @@ It should work for negative numbers and zero.
 */
 
 function isOddWithoutModulo(num) {
-  return Number.isInt(num / 2) === false;
+  // if num is 1
+  if (num === 0) {
+    return false;
+  }
+  num = Math.abs(num);
+
+  while (num >= 2) {
+    num = num - 2;
+  }
+  if (num === 1) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
-var output = isOddWithoutModulo(8);
+var output = isOddWithoutModulo(17);
 console.log(output); // --> true
