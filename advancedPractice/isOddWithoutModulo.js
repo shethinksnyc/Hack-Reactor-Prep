@@ -27,5 +27,5 @@ function isOddWithoutModulo(num) {
   }
 }
 
-var output = isOddWithoutModulo(17);
+var output = isOddWithoutModulo(-9);
 console.log(output); // --> true
